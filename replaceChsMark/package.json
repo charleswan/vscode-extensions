@@ -1,0 +1,71 @@
+{
+    "name": "replacechsmark",
+    "displayName": "replaceChsMark",
+    "description": "This is a Visual Studio Code extension which replace Chinese mark to English mark in full text.",
+    "version": "1.0.2",
+    "icon": "img/replaceChsMark.png",
+    "license": "MIT",
+    "author": {
+        "name": "Charles Wan",
+        "url": "https://github.com/charliewin"
+    },
+    "bugs": {
+        "url": "https://github.com/charliewin/replaceChsMark/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/charliewin/replaceChsMark.git"
+    },
+    "keywords": [
+        "markdown",
+        "chinese",
+        "mark"
+    ],
+    "homepage": "https://github.com/charliewin/replaceChsMark",
+    "publisher": "CharlesWan",
+    "engines": {
+        "vscode": "^1.25.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.replaceChsMarks"
+    ],
+    "main": "./out/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.replaceChsMarks",
+                "title": "替换中文符号"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "when": "editorLangId == 'markdown'",
+                    "command": "extension.replaceChsMarks"
+                }
+            ]
+        },
+        "keybindings": [
+            {
+                "command": "extension.replaceChsMarks",
+                "key": "ctrl+m r"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.6",
+        "@types/node": "^7.0.43",
+        "@types/mocha": "^2.2.42"
+    }
+}
