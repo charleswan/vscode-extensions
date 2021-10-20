@@ -7,21 +7,21 @@
     "license": "MIT",
     "author": {
         "name": "Charles Wan",
-        "url": "https://github.com/charliewin"
+        "url": "https://github.com/charleswan"
     },
     "bugs": {
-        "url": "https://github.com/charliewin/replaceChsMark/issues"
+        "url": "https://github.com/charleswan/vscode-extensions/issues"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/charliewin/replaceChsMark.git"
+        "url": "https://github.com/charleswan/vscode-extensions.git"
     },
     "keywords": [
         "markdown",
         "chinese",
         "mark"
     ],
-    "homepage": "https://github.com/charliewin/replaceChsMark",
+    "homepage": "https://github.com/charleswan/vscode-extensions",
     "publisher": "CharlesWan",
     "engines": {
         "vscode": "^1.25.0"
