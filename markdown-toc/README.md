@@ -4,21 +4,21 @@ This extension was developed by [AlanWalk](https://github.com/AlanWalk/Markdown-
 
 Generate TOC (table of contents) of headlines from parsed [markdown](https://en.wikipedia.org/wiki/Markdown) file.
 
-<!-- TOC depthfrom:2 -->
+<!-- TOC depthFrom:2 -->
 
-- 1. Features
-- 2. Installation
-- 3. Usage
-    - 3.1. Insert TOC
-    - 3.2. Insert Header Number Sections
-- 4. Configuration
-    - 4.1. Default Settings
-    - 4.2. Unique Settings
-- 5. Contributors
-- 6. What's New?
-- 7. Question
-- 8. License
-- 9. Links
+- [1. Features](#1-features)
+- [2. Installation](#2-installation)
+- [3. Usage](#3-usage)
+    - [3.1. Insert TOC](#31-insert-toc)
+    - [3.2. Insert Header Number Sections](#32-insert-header-number-sections)
+- [4. Configuration](#4-configuration)
+    - [4.1. Default Settings](#41-default-settings)
+    - [4.2. Unique Settings](#42-unique-settings)
+- [5. Contributors](#5-contributors)
+- [6. What's New?](#6-whats-new)
+- [7. Question](#7-question)
+- [8. License](#8-license)
+- [9. Links](#9-links)
 
 <!-- /TOC -->
 
@@ -41,12 +41,12 @@ ext install markdown-toc
 ## 3. Usage
 
 ### 3.1. Insert TOC
-![Insert TOC](https://github.com/charleswan/vscode-extensions/markdown-toc/raw/master/img/insert-toc.gif)
+![Insert TOC](https://raw.githubusercontent.com/charleswan/vscode-extensions/master/markdown-toc/img/insert-toc.gif)
 
 ### 3.2. Insert Header Number Sections
 **Tips:Section of header is begin with depthFrom**
 
-![Insert Header Number Sections](https://github.com/charleswan/vscode-extensions/markdown-toc/raw/master/img/insert-header-number-sections.gif)
+![Insert Header Number Sections](https://raw.githubusercontent.com/charleswan/vscode-extensions/master/markdown-toc/img/insert-header-number-sections.gif)
 
 ## 4. Configuration
 |attributes|values|defaults|
